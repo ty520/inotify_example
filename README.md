@@ -1,2 +1,6 @@
-# inotify_example
-inotify实现目录监控
+# inotify_demo
+inotify监控文件系统事件
+
+利用epoll异步监控文件增、删、改、查操作。
+
+inotify监控文件比较适用于文件系统改动较为频繁的应用场景；可以用于监控应用程序配置文件的修改等。
